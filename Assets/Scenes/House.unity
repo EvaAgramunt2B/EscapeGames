@@ -15420,6 +15420,10 @@ PrefabInstance:
       propertyPath: InventoryMenu
       value: 
       objectReference: {fileID: 7249459678924076149}
+    - target: {fileID: 943349792, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1960778582, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
       propertyPath: m_LuxAtDistance
       value: 3
