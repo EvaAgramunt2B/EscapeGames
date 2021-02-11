@@ -1828,6 +1828,11 @@ PrefabInstance:
       propertyPath: PressText
       value: 
       objectReference: {fileID: 7249459679458399692}
+    - target: {fileID: 6171010558525545772, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
     - target: {fileID: 6732934930546900969, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: CantOpenTxt
@@ -1838,6 +1843,11 @@ PrefabInstance:
       propertyPath: PressText
       value: 
       objectReference: {fileID: 7249459679458399692}
+    - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
     - target: {fileID: 7519637116377627133, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: CantOpenTxt
@@ -13920,6 +13930,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player V2
       objectReference: {fileID: 0}
+    - target: {fileID: 1296052555787616442, guid: cce6a29542cc64f4ab5d05b21375c055,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3201846998458923366, guid: cce6a29542cc64f4ab5d05b21375c055,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -20845,7 +20860,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1649419823
 Transform:
   m_ObjectHideFlags: 0
