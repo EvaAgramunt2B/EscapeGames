@@ -2414,7 +2414,7 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 28.5
+  m_Intensity: 29.34
   m_EnableSpotReflector: 0
   m_LuxAtDistance: 1.12
   m_InnerSpotPercent: 100
@@ -2516,7 +2516,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 35.7504
+  m_Intensity: 36.804096
   m_Range: 0.47
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4778,9 +4778,9 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 30
+  m_Intensity: 53.8
   m_EnableSpotReflector: 0
-  m_LuxAtDistance: 6.34
+  m_LuxAtDistance: 8.86
   m_InnerSpotPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4880,8 +4880,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1205.868
-  m_Range: 6.93
+  m_Intensity: 4223.2783
+  m_Range: 7.15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -6400,8 +6400,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1.55
-  MaxDistance: 4.4
+  MinDistance: 3.6
+  MaxDistance: 5.5
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -6878,7 +6878,7 @@ PrefabInstance:
     - target: {fileID: 8291164613334625679, guid: a8490c4baa869494abe08dd117076243,
         type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8495838895719259504, guid: a8490c4baa869494abe08dd117076243,
         type: 3}
@@ -9687,13 +9687,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592045002}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.54, y: 0.44900006, z: -5.23}
+  m_LocalRotation: {x: -0, y: 0.13591324, z: -0, w: 0.99072075}
+  m_LocalPosition: {x: 5.38, y: 0.44900006, z: -4.16}
   m_LocalScale: {x: 4.659999, y: 0.54999995, z: 0.08999999}
   m_Children: []
   m_Father: {fileID: 1064607590}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 15.623001, z: 0}
 --- !u!114 &592045004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25378,7 +25378,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1649419823
 Transform:
   m_ObjectHideFlags: 0
