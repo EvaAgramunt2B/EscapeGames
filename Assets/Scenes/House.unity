@@ -4737,6 +4737,7 @@ GameObject:
   - component: {fileID: 245704789}
   - component: {fileID: 245704791}
   - component: {fileID: 245704790}
+  - component: {fileID: 245704792}
   m_Layer: 0
   m_Name: LuzParpadea (8)
   m_TagString: Untagged
@@ -4778,9 +4779,9 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
-  m_Intensity: 53.8
+  m_Intensity: 65
   m_EnableSpotReflector: 0
-  m_LuxAtDistance: 8.86
+  m_LuxAtDistance: 9.6
   m_InnerSpotPercent: 100
   m_LightDimmer: 1
   m_VolumetricDimmer: 1
@@ -4880,7 +4881,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 4223.2783
+  m_Intensity: 5990.4004
   m_Range: 7.15
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4929,6 +4930,22 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 40.96
   m_ShadowAngle: 0
+--- !u!114 &245704792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245704788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cab7ea7568cd8741a31062a414353bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lightflicking1: {fileID: 245704791}
+  lightflicking2: {fileID: 115920471}
+  minWaitTime: 0.3
+  maxWaitTime: 1.5
 --- !u!1 &249436953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4591519328223581086, guid: 9110899a2f891614c94b22cbabfe96d5,
