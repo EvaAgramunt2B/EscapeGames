@@ -30046,6 +30046,21 @@ PrefabInstance:
       propertyPath: cursor
       value: 
       objectReference: {fileID: 1340109296}
+    - target: {fileID: 4914295898905857741, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
+        type: 3}
+      propertyPath: mainCam
+      value: 
+      objectReference: {fileID: 1636233782}
+    - target: {fileID: 6276627959180272456, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
+        type: 3}
+      propertyPath: mainCam
+      value: 
+      objectReference: {fileID: 1636233782}
+    - target: {fileID: 6276627959375405885, guid: 68b1606a31f3b014b9ebd4e86a50fb27,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68b1606a31f3b014b9ebd4e86a50fb27, type: 3}
 --- !u!1001 &1966290456
@@ -34083,7 +34098,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 41.411865, y: -8.999817}
+  m_AnchoredPosition: {x: 41.411865, y: -8.999756}
   m_SizeDelta: {x: 567.1763, y: 100}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &7249459680109692460

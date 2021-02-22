@@ -222,6 +222,8 @@ MonoBehaviour:
   distanceToInteract: 0
   cursor: {fileID: 0}
   numPadCanvas: {fileID: 6276627959375405884}
+  mainCam: {fileID: 0}
+  NumPadCam: {fileID: 4451640664679418718}
 --- !u!1 &4451640664679418718
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7017356281582093371
 Transform:
   m_ObjectHideFlags: 0
@@ -1126,6 +1128,11 @@ PrefabInstance:
       propertyPath: dammit
       value: 
       objectReference: {fileID: 9150485858000246063}
+    - target: {fileID: 1376925257933245177, guid: 3c464f8689f51b544bb7e423c5d6e24c,
+        type: 3}
+      propertyPath: NumPadCam
+      value: 
+      objectReference: {fileID: 4451640664679418718}
     - target: {fileID: 1376925258057535680, guid: 3c464f8689f51b544bb7e423c5d6e24c,
         type: 3}
       propertyPath: m_fontColor.r
