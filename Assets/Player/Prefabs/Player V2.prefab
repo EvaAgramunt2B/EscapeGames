@@ -1365,7 +1365,9 @@ MonoBehaviour:
   controller: {fileID: 920856655}
   speed: 2.5
   GodModeTxt: {fileID: 0}
+  startBlink: {fileID: 1296052555787616442}
   InventoryMenu: {fileID: 0}
+  lucesPaVer: {fileID: 0}
 --- !u!1 &8196926941280103729
 GameObject:
   m_ObjectHideFlags: 0
