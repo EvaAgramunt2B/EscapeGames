@@ -1133,6 +1133,11 @@ PrefabInstance:
       propertyPath: NumPadCam
       value: 
       objectReference: {fileID: 4451640664679418718}
+    - target: {fileID: 1376925257933245177, guid: 3c464f8689f51b544bb7e423c5d6e24c,
+        type: 3}
+      propertyPath: animator1
+      value: 
+      objectReference: {fileID: 1763148876957643024}
     - target: {fileID: 1376925258057535680, guid: 3c464f8689f51b544bb7e423c5d6e24c,
         type: 3}
       propertyPath: m_fontColor.r
