@@ -14817,6 +14817,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 477907051440182578, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.000061
+      objectReference: {fileID: 0}
+    - target: {fileID: 1437883913616439683, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897616417827319410, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935577255874277706, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935577255874277706, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011829793553036543, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2495505548619547951, guid: 9709b9f1d96940546b94730cd546ae9c,
         type: 3}
       propertyPath: m_AABB.m_Center.x
@@ -14826,6 +14856,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: JRamirez_Skinned_TPOSE
+      objectReference: {fileID: 0}
+    - target: {fileID: 4665771173156764475, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148241147895998138, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -6.000061
       objectReference: {fileID: 0}
     - target: {fileID: 5411549423994273604, guid: 9709b9f1d96940546b94730cd546ae9c,
         type: 3}
@@ -14880,6 +14920,11 @@ PrefabInstance:
     - target: {fileID: 5411549423994273604, guid: 9709b9f1d96940546b94730cd546ae9c,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6154251313814617828, guid: 9709b9f1d96940546b94730cd546ae9c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -24413,6 +24458,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530922577}
   m_CullTransparentMesh: 0
+--- !u!1 &1537831529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4634906789565277694, guid: 9709b9f1d96940546b94730cd546ae9c,
+    type: 3}
+  m_PrefabInstance: {fileID: 890044257}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1537831530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537831529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26c88222c9ddc42419136ea8c8088e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToUpdateTarget: 0.5
+  timeToUpdateSight: 0.5
+  targetSelection: 1
+  sightDistance: 30
+  sightWidth: 20
+  sightHeight: 20
+  timeToUnhear: 2
+  idleTime: 5
+  patrolPoints: []
+  iSeeYou: {fileID: 0}
+  iSeeYouNot: {fileID: 0}
+  iHearYou: {fileID: 0}
+  iHearYouNot: {fileID: 0}
+  idleStateText: {fileID: 0}
+  patrollingStateText: {fileID: 0}
+  followinStateText: {fileID: 0}
 --- !u!1 &1542422422
 GameObject:
   m_ObjectHideFlags: 0
