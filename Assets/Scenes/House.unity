@@ -523,6 +523,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tablero_Ajedrez
       objectReference: {fileID: 0}
+    - target: {fileID: 8268505742871896096, guid: c72ed5c6de36efb42b4d38b0461c8d86,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8787774695737424538, guid: c72ed5c6de36efb42b4d38b0461c8d86,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -11367,6 +11372,7 @@ GameObject:
   - component: {fileID: 659184525}
   - component: {fileID: 659184524}
   - component: {fileID: 659184523}
+  - component: {fileID: 659184527}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -11448,6 +11454,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &659184527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659184522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b71b14910c8f0449f70f09166e9e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &664167373
 GameObject:
   m_ObjectHideFlags: 0
@@ -21830,6 +21848,7 @@ GameObject:
   - component: {fileID: 1262186034}
   - component: {fileID: 1262186033}
   - component: {fileID: 1262186032}
+  - component: {fileID: 1262186036}
   m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -21911,6 +21930,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1262186036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262186031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b71b14910c8f0449f70f09166e9e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1273514688
 GameObject:
   m_ObjectHideFlags: 0
@@ -22583,6 +22614,7 @@ GameObject:
   - component: {fileID: 1296828337}
   - component: {fileID: 1296828336}
   - component: {fileID: 1296828335}
+  - component: {fileID: 1296828339}
   m_Layer: 9
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -22664,6 +22696,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1296828339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296828334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b71b14910c8f0449f70f09166e9e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1303189128
 GameObject:
   m_ObjectHideFlags: 0
