@@ -215,8 +215,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3359782, y: 0.24524729, z: 0.29536387}
-  m_Center: {x: 0.015330881, y: -0.0029257908, z: 0.021789238}
+  m_Size: {x: 0.18791673, y: 0.07824795, z: 0.01745627}
+  m_Center: {x: 0.015221611, y: -0.000000037252903, z: 0.000025441404}
 --- !u!114 &2303688325338530495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -231,8 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemButton: {fileID: 9152439793885235007, guid: 8042b2ed5db60e14d81530e69c0783dd,
     type: 3}
-  distanceToInteract: 0
-  PressText: {fileID: 0}
+  cursor: {fileID: 0}
   sound: {fileID: 4783123796301566178}
 --- !u!114 &4253218331263076187
 MonoBehaviour:
@@ -315,6 +314,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Key_LP
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2459dced9b21e6348806ca996eec5e6d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2459dced9b21e6348806ca996eec5e6d, type: 3}
