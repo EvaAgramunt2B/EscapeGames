@@ -17476,6 +17476,10 @@ PrefabInstance:
       propertyPath: m_StepOffset
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 920856655, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
+      propertyPath: m_Height
+      value: 1.7
+      objectReference: {fileID: 0}
     - target: {fileID: 943349792, guid: cce6a29542cc64f4ab5d05b21375c055, type: 3}
       propertyPath: SensibilityMouse
       value: 
