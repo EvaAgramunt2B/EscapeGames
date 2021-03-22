@@ -1037,6 +1037,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapleTree (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 503480456930036931, guid: 735ccb9e8060fc04892fc1d4d822668c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 988373414422697593, guid: 735ccb9e8060fc04892fc1d4d822668c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8949,6 +8954,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MapleTree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 503480456930036931, guid: 735ccb9e8060fc04892fc1d4d822668c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 988373414422697593, guid: 735ccb9e8060fc04892fc1d4d822668c,
         type: 3}
@@ -27133,7 +27143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1628659917
 Transform:
   m_ObjectHideFlags: 0
@@ -30237,6 +30247,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapleTree (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 503480456930036931, guid: 735ccb9e8060fc04892fc1d4d822668c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 988373414422697593, guid: 735ccb9e8060fc04892fc1d4d822668c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30928,6 +30943,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MapleTree
+      objectReference: {fileID: 0}
+    - target: {fileID: 503480456930036931, guid: 735ccb9e8060fc04892fc1d4d822668c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 988373414422697593, guid: 735ccb9e8060fc04892fc1d4d822668c,
         type: 3}
@@ -34179,6 +34199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapleTree (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 503480456930036931, guid: 735ccb9e8060fc04892fc1d4d822668c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 988373414422697593, guid: 735ccb9e8060fc04892fc1d4d822668c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -34864,6 +34889,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MapleTree (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 503480456930036931, guid: 735ccb9e8060fc04892fc1d4d822668c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 988373414422697593, guid: 735ccb9e8060fc04892fc1d4d822668c,
         type: 3}
