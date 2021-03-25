@@ -6659,6 +6659,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6798a608691c844fbedd910dbcd3c72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstSelectedMain: {fileID: 4936572714335693169}
+  firstSelectedOptions: {fileID: 2157812238059197740}
   options: {fileID: 1733074377075706022}
   mainpause: {fileID: 1292260926618219934}
   PauseMenu: {fileID: 7321565760039951257}
