@@ -19541,11 +19541,15 @@ PrefabInstance:
     - target: {fileID: 1773422842, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
       propertyPath: m_Navigation.m_SelectOnLeft
       value: 
-      objectReference: {fileID: 2127940627}
+      objectReference: {fileID: 0}
     - target: {fileID: 1773422842, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
       propertyPath: m_Navigation.m_SelectOnUp
       value: 
       objectReference: {fileID: 2019624777}
+    - target: {fileID: 1773422842, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
+      propertyPath: m_Navigation.m_SelectOnRight
+      value: 
+      objectReference: {fileID: 2127940627}
     - target: {fileID: 1773422843, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -19643,6 +19647,10 @@ PrefabInstance:
       objectReference: {fileID: 2019624777}
     - target: {fileID: 2047139226, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
       propertyPath: m_Navigation.m_SelectOnRight
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2047139226, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
+      propertyPath: m_Navigation.m_SelectOnLeft
       value: 
       objectReference: {fileID: 927390094}
     - target: {fileID: 2047139227, guid: 38f5ad2bc23500a4499c43477392a20f, type: 3}
