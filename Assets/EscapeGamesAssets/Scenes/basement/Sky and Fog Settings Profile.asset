@@ -116,7 +116,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 2.3
+    m_Value: 2.1
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -888,8 +888,8 @@ MonoBehaviour:
     showAlpha: 0
     showEyeDropper: 1
   maxFogDistance:
-    m_OverrideState: 0
-    m_Value: 674.6
+    m_OverrideState: 1
+    m_Value: 5
     min: 0
   mipFogMaxMip:
     m_OverrideState: 0
@@ -934,14 +934,14 @@ MonoBehaviour:
     min: 0
     max: 1
   depthExtent:
-    m_OverrideState: 0
-    m_Value: 64
+    m_OverrideState: 1
+    m_Value: 50
     min: 0.1
   sliceDistributionUniformity:
-    m_OverrideState: 0
-    m_Value: 0.75
+    m_OverrideState: 1
+    m_Value: 1
     min: 0
     max: 1
   filter:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
