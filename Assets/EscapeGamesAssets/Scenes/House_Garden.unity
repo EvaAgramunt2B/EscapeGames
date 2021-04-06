@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1 &28801267
@@ -7701,7 +7701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1001 &339595375
@@ -10877,7 +10877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1001 &487473158
@@ -20775,7 +20775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1 &948700212
@@ -29529,7 +29529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1 &1399376976
@@ -31730,7 +31730,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0610e3fe028c9ab4a843ad0d3bee8b75,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6520586
+      value: 1.409
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0610e3fe028c9ab4a843ad0d3bee8b75,
         type: 3}
@@ -33986,7 +33986,7 @@ PrefabInstance:
     - target: {fileID: 6191204927285870157, guid: c88bdf378beb3834397e7bba8887fe1c,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.603
+      value: 1.411
       objectReference: {fileID: 0}
     - target: {fileID: 6191204927285870157, guid: c88bdf378beb3834397e7bba8887fe1c,
         type: 3}
@@ -34929,7 +34929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1 &1752665337
@@ -35011,7 +35011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758319440}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 11.961, y: 1.198, z: 1.6519}
+  m_LocalPosition: {x: 11.961, y: 1.198, z: 1.4088415}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 758516540}
@@ -39265,7 +39265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!4 &1991374977
@@ -40687,7 +40687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isGlobal: 0
   priority: 0
-  blendDistance: 0
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: 151cb543f54de2343bf4cd93ddaf4ac4, type: 2}
 --- !u!1 &2044403656
