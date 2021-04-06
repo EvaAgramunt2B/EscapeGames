@@ -246,7 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59b6606ef2548734bb6d11b9d160bc7e, type: 3}
   m_Name: HDRISky
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   rotation:
     m_OverrideState: 0
@@ -258,7 +258,7 @@ MonoBehaviour:
     m_Value: 0
   exposure:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: -0.6
   multiplier:
     m_OverrideState: 0
     m_Value: 1
@@ -470,7 +470,7 @@ MonoBehaviour:
     showAlpha: 0
     showEyeDropper: 1
   maxFogDistance:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2.4
     min: 0
   mipFogMaxMip:
@@ -488,10 +488,10 @@ MonoBehaviour:
     min: 0
   baseHeight:
     m_OverrideState: 1
-    m_Value: -11.3
+    m_Value: 0
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 210.43
+    m_Value: 120.3
   albedo:
     m_OverrideState: 0
     m_Value: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
@@ -500,24 +500,24 @@ MonoBehaviour:
     showEyeDropper: 1
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 6.4
+    m_Value: 5.95
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   anisotropy:
     m_OverrideState: 1
-    m_Value: -0.707
+    m_Value: 1
     min: -1
     max: 1
   globalLightProbeDimmer:
     m_OverrideState: 0
-    m_Value: 0.299
+    m_Value: 0
     min: 0
     max: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 50
+    m_Value: 3.91
     min: 0.1
   sliceDistributionUniformity:
     m_OverrideState: 1
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d08ce26990eb1a4a9177b860541e702, type: 3}
   m_Name: Exposure
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   mode:
     m_OverrideState: 1
@@ -635,7 +635,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 2.1
+    m_Value: -2
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -944,4 +944,4 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-  m_SelectedCurve: 4
+  m_SelectedCurve: 0
