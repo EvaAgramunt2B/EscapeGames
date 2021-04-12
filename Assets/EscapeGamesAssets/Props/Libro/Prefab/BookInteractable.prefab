@@ -7,6 +7,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 904903109, guid: 57bd3dd34e600c74fa772437f8a29c39, type: 3}
+      propertyPath: book
+      value: 
+      objectReference: {fileID: 8025180320137245193}
+    - target: {fileID: 904903109, guid: 57bd3dd34e600c74fa772437f8a29c39, type: 3}
+      propertyPath: itemButton
+      value: 
+      objectReference: {fileID: 9152439793885235007, guid: ccbd9d1285eea5a429ed780ae5a8fa4d,
+        type: 3}
+    - target: {fileID: 1410788344, guid: 57bd3dd34e600c74fa772437f8a29c39, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1410788348, guid: 57bd3dd34e600c74fa772437f8a29c39, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 15856125490929163, guid: 57bd3dd34e600c74fa772437f8a29c39,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 15856125490929163, guid: 57bd3dd34e600c74fa772437f8a29c39,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 15856125490929163, guid: 57bd3dd34e600c74fa772437f8a29c39,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7762593016217245265, guid: 57bd3dd34e600c74fa772437f8a29c39,
         type: 3}
       propertyPath: m_Name
@@ -69,3 +101,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57bd3dd34e600c74fa772437f8a29c39, type: 3}
+--- !u!1 &8025180320137245193 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 825150093976323249, guid: 57bd3dd34e600c74fa772437f8a29c39,
+    type: 3}
+  m_PrefabInstance: {fileID: 7218337095761966776}
+  m_PrefabAsset: {fileID: 0}

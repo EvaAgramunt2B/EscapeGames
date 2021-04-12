@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3635631932432770740}
   - component: {fileID: 892273719883111405}
   m_Layer: 0
-  m_Name: PapersPuzzleINVENTORY
+  m_Name: BookINVENTORY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
