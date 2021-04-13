@@ -7183,6 +7183,7 @@ Transform:
   m_PrefabInstance: {fileID: 288761756}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &289469616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3333506104152133232, guid: 60ed86c1db4c41c4abf629f55cb4dfe2,
@@ -7203,6 +7204,8 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4014412808269132774, guid: 60ed86c1db4c41c4abf629f55cb4dfe2, type: 3}
+=======
+>>>>>>> parent of e355d4f (marquitos y escalera PERO faltan uvs por corregir, pero hago push POR SI LAS MOSCAS)
 =======
 >>>>>>> parent of e355d4f (marquitos y escalera PERO faltan uvs por corregir, pero hago push POR SI LAS MOSCAS)
 --- !u!1001 &296305977
@@ -27176,7 +27179,11 @@ MonoBehaviour:
   m_Profile: {fileID: 11400000, guid: 2d66fa2f74666a14696717c10c9336cb, type: 2}
   m_StaticLightingSkyUniqueID: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SkySettings: {fileID: 8944181}
+=======
+  m_SkySettings: {fileID: 506377297}
+>>>>>>> parent of e355d4f (marquitos y escalera PERO faltan uvs por corregir, pero hago push POR SI LAS MOSCAS)
 =======
   m_SkySettings: {fileID: 506377297}
 >>>>>>> parent of e355d4f (marquitos y escalera PERO faltan uvs por corregir, pero hago push POR SI LAS MOSCAS)
