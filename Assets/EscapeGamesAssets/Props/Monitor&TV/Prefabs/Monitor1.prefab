@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4144407801811810383}
   - component: {fileID: 2190741432875699333}
   m_Layer: 0
-  m_Name: Monitor_UVok
+  m_Name: Monitor1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
