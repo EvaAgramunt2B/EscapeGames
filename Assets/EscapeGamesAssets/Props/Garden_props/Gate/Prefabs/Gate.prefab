@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2064736710071143737}
   - component: {fileID: 3153154387159637945}
   - component: {fileID: 832185239932334698}
+  - component: {fileID: 3518704487062933977}
   m_Layer: 0
   m_Name: Gate_L
   m_TagString: Untagged
@@ -93,6 +94,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4138192, y: 2.8861806, z: 0.1397456}
   m_Center: {x: -0.6447106, y: 1.4430903, z: 0.009999996}
+--- !u!114 &3518704487062933977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3306975232235428184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c78db34c0fd274db0f650979fce692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CantOpenTxt: {fileID: 0}
+  cursor: {fileID: 0}
+  door: {fileID: 3306975232235428184}
 --- !u!1 &3982088028201422457
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,6 +153,7 @@ GameObject:
   - component: {fileID: 3583332676715443959}
   - component: {fileID: 1381042030240806307}
   - component: {fileID: 8740115156488642646}
+  - component: {fileID: 4379948977429310714}
   m_Layer: 0
   m_Name: Gate_R
   m_TagString: Untagged
@@ -218,3 +235,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4138191, y: 2.8861806, z: 0.1397456}
   m_Center: {x: 0.64277995, y: 1.4430903, z: 0.009999996}
+--- !u!114 &4379948977429310714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4664467228080317639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c78db34c0fd274db0f650979fce692, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CantOpenTxt: {fileID: 0}
+  cursor: {fileID: 0}
+  door: {fileID: 4664467228080317639}

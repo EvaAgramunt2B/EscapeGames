@@ -1,32 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &7549401741395242476
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812695653917956322}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.1686919, y: 0.27338487, z: 0.1480152}
-  m_Center: {x: 0, y: 0.13669243, z: -0.000000018626451}
---- !u!114 &5921349199544672982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 812695653917956322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fee79b65e794ae44fbf26e6bd1f4cd8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemButton: {fileID: 9152439793885235007, guid: 7a1daca07f616b144b7ca74778fae64f,
-    type: 3}
 --- !u!1 &7976264022397416714
 GameObject:
   m_ObjectHideFlags: 0
@@ -36,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9220135139121023615}
-  m_Layer: 0
+  - component: {fileID: 3449835714743293130}
+  - component: {fileID: 3358262458938664229}
+  m_Layer: 9
   m_Name: ChessPiece_PUZZLE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,6 +33,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3449835714743293130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7976264022397416714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee79b65e794ae44fbf26e6bd1f4cd8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemButton: {fileID: 9152439793885235007, guid: 7a1daca07f616b144b7ca74778fae64f,
+    type: 3}
+--- !u!65 &3358262458938664229
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7976264022397416714}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.076281965, y: 0.07891901, z: 0.052273154}
+  m_Center: {x: -0.0012517273, y: 0.03734026, z: -0.0006572604}
 --- !u!1001 &542173263175198131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -132,12 +134,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46d678252820504489852e163869fc77, type: 3}
---- !u!1 &812695653917956322 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 46d678252820504489852e163869fc77,
-    type: 3}
-  m_PrefabInstance: {fileID: 542173263175198131}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3543488293028440 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 46d678252820504489852e163869fc77,
