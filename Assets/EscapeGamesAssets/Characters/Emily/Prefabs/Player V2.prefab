@@ -707,8 +707,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8557923, y: 1.9249519, z: 1.323236}
-  m_Center: {x: -0.0029150248, y: 0.91752404, z: 0.641618}
+  m_Size: {x: 0.8557923, y: 1.9249519, z: 0.56638134}
+  m_Center: {x: -0.0029150248, y: 0.91752404, z: -0.0043839663}
 --- !u!1 &727728240475875582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1263,6 +1263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c96de84ac1db4a24ab11c84beae3cb18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ramirez: {fileID: 0}
+  doorsSecurity: {fileID: 0}
   mouseSensitivity: 100
   mouseSensitivityPC: 1
   playerBody: {fileID: 4018625563256787385}
