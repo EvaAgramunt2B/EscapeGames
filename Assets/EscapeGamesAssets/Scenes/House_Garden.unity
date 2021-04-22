@@ -48619,7 +48619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494708970, guid: 5650f4fc53a9103458b74f54941de4ef, type: 3}
       propertyPath: m_PlayOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 494708970, guid: 5650f4fc53a9103458b74f54941de4ef, type: 3}
       propertyPath: MinDistance
