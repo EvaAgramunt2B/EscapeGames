@@ -48609,6 +48609,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 494708969, guid: 5650f4fc53a9103458b74f54941de4ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.941
+      objectReference: {fileID: 0}
+    - target: {fileID: 494708969, guid: 5650f4fc53a9103458b74f54941de4ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.251
+      objectReference: {fileID: 0}
     - target: {fileID: 494708970, guid: 5650f4fc53a9103458b74f54941de4ef, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -48619,7 +48627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494708970, guid: 5650f4fc53a9103458b74f54941de4ef, type: 3}
       propertyPath: MaxDistance
-      value: 17
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4805934869460351637, guid: 5650f4fc53a9103458b74f54941de4ef,
         type: 3}
