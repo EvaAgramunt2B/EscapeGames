@@ -483,8 +483,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6141102526121493738}
+  - component: {fileID: 4108168464214603952}
   m_Layer: 0
-  m_Name: cajaherramientas 1
+  m_Name: cajaherramientas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -511,6 +512,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 139.529, z: 0}
+--- !u!65 &4108168464214603952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805577412911930960}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.78240216, y: 1.0442574, z: 0.3600984}
+  m_Center: {x: 0.02407217, y: 0.53713155, z: 0.011552602}
 --- !u!1 &7944423168300897861
 GameObject:
   m_ObjectHideFlags: 0
