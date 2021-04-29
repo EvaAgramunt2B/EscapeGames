@@ -330,7 +330,6 @@ MonoBehaviour:
   - {fileID: 4805934869849674489}
   meleeAttackDistance: 1
   meleeAttackDuration: 1
-  door: {fileID: 494708970}
   footsteps: {fileID: 973133444}
 --- !u!195 &6410818131058983121
 NavMeshAgent:
@@ -351,7 +350,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
-  m_BaseOffset: 0.21
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!1 &4805934869460351637
