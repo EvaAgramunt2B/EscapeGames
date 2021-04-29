@@ -948,76 +948,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 10627489}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &12107016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 0.12
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  top:
-    m_OverrideState: 0
-    m_Value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  middle:
-    m_OverrideState: 0
-    m_Value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  bottom:
-    m_OverrideState: 0
-    m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  gradientDiffusion:
-    m_OverrideState: 0
-    m_Value: 2.76
 --- !u!1001 &14346199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1501,7 +1431,7 @@ PrefabInstance:
     - target: {fileID: 3602843434041343118, guid: 64ea058bf5d500e40849fdca2146abb6,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 3602843434041343118, guid: 64ea058bf5d500e40849fdca2146abb6,
         type: 3}
@@ -6173,7 +6103,6 @@ Transform:
   - {fileID: 1898976871}
   - {fileID: 763802439}
   - {fileID: 1065187602}
-  - {fileID: 2021364618}
   - {fileID: 561728633}
   - {fileID: 77029747}
   - {fileID: 1042586816}
@@ -9307,10 +9236,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -9372,12 +9316,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &329411712 stripped
 Transform:
@@ -14402,10 +14379,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -14467,12 +14459,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &495990835 stripped
 Transform:
@@ -16307,10 +16332,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -16372,12 +16412,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &579624379 stripped
 Transform:
@@ -20327,10 +20400,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -20392,12 +20480,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &711145313 stripped
 Transform:
@@ -22242,10 +22363,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -22307,12 +22443,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &771376777 stripped
 Transform:
@@ -24535,10 +24704,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -24600,12 +24784,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &846844135 stripped
 Transform:
@@ -26123,10 +26340,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -26188,12 +26420,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &898196862 stripped
 Transform:
@@ -27105,10 +27370,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -27170,12 +27450,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &928958146 stripped
 Transform:
@@ -29093,10 +29406,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1770131805}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -29158,12 +29486,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1005840538 stripped
 Transform:
@@ -29231,10 +29592,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -29296,12 +29672,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1024973866 stripped
 Transform:
@@ -29334,10 +29743,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1770131805}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -29399,12 +29823,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!1 &1037273301
 GameObject:
@@ -29784,7 +30241,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0a76ef56e184b3840a469d615a62c377,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a76ef56e184b3840a469d615a62c377,
         type: 3}
@@ -31693,10 +32150,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -31758,12 +32230,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1106881544 stripped
 Transform:
@@ -34089,6 +34594,76 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 599922662}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1196074920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 0.12
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  top:
+    m_OverrideState: 0
+    m_Value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  middle:
+    m_OverrideState: 0
+    m_Value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  bottom:
+    m_OverrideState: 0
+    m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  gradientDiffusion:
+    m_OverrideState: 0
+    m_Value: 2.76
 --- !u!1 &1200769763 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8759561017194510085, guid: a35a70379c77da04b85d7fbbffc902ef,
@@ -34581,7 +35156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 2d66fa2f74666a14696717c10c9336cb, type: 2}
   m_StaticLightingSkyUniqueID: 3
-  m_SkySettings: {fileID: 12107016}
+  m_SkySettings: {fileID: 1196074920}
   m_SkySettingsFromProfile: {fileID: -616064086577677760, guid: 2d66fa2f74666a14696717c10c9336cb,
     type: 2}
 --- !u!4 &1215543873
@@ -38659,10 +39234,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -38724,12 +39314,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1384379987 stripped
 Transform:
@@ -39359,10 +39982,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1770131805}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -39424,12 +40062,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1426806239 stripped
 Transform:
@@ -41562,10 +42233,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -41627,12 +42313,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1538217255 stripped
 Transform:
@@ -42293,10 +43012,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -42358,12 +43092,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1559702188 stripped
 Transform:
@@ -45670,7 +46437,7 @@ PrefabInstance:
     - target: {fileID: 3057582379462325565, guid: c16c40fed5603fc4dbc0608077dbf3d7,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 3057582379462325565, guid: c16c40fed5603fc4dbc0608077dbf3d7,
         type: 3}
@@ -49085,10 +49852,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203450589}
     m_Modifications:
+    - target: {fileID: 108772706945957254, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 783979506411045572, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Name
       value: Estanteria_Cajones (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3735794581665599598, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036405903780495938, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4505521415780639188, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
@@ -49150,12 +49932,45 @@ PrefabInstance:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 0c1528992ba7f5944a48db08910cf471, type: 3}
+    - target: {fileID: 6593989797260393874, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6886955877855567178, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 56cdae5253a5a504abee1ee24a8ee075, type: 3}
-    m_RemovedComponents: []
+    - target: {fileID: 8880667868476805637, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990688196114748846, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1543165014278563592, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2808200050636143458, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 2128503584038926576, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4560704133505414479, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1134695777105892631, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1280390001455665221, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7808532154527677138, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 5741946533917040604, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7994208442905806579, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 6085865580174514117, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 625605933334446919, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1703197600352492031, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
+    - {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a6446bc581bce264b8c8912d81fb12b6, type: 3}
 --- !u!4 &1860895645 stripped
 Transform:
@@ -53438,12 +54253,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2019990293}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2021364618 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-    type: 3}
-  m_PrefabInstance: {fileID: 2141685962}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2021558581 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c470b7aa0684c1843893a8edf342f5a6,
@@ -56900,75 +57709,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1838066429888879321, guid: 60ed86c1db4c41c4abf629f55cb4dfe2, type: 3}
---- !u!1001 &2141685962
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 203450589}
-    m_Modifications:
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.0172706
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.076
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.7646945
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.55075395
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.83466774
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 34
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 66.838005
-      objectReference: {fileID: 0}
-    - target: {fileID: 6144199289887149798, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6777710868384584796, guid: 01d52316044ff474d8074dcbcb34d1cc,
-        type: 3}
-      propertyPath: m_Name
-      value: Linterna_low
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 01d52316044ff474d8074dcbcb34d1cc, type: 3}
 --- !u!1001 &2144111395
 PrefabInstance:
   m_ObjectHideFlags: 0
