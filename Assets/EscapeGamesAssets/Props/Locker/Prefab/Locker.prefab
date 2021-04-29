@@ -79,6 +79,7 @@ MonoBehaviour:
   animator1: {fileID: 2902678618564977779}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 8186140416503133569}
   CloseAudio: {fileID: 935685440101922609}
 --- !u!1 &4404556366472977632
