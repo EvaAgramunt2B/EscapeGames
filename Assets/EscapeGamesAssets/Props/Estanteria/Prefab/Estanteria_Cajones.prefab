@@ -61,6 +61,7 @@ MonoBehaviour:
   animator1: {fileID: 6085865580174514117}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 6171010558525545772}
   CloseAudio: {fileID: 6886955877855567178}
 --- !u!1 &783979506411045572
@@ -200,6 +201,7 @@ MonoBehaviour:
   animator1: {fileID: 7808532154527677138}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 6171010558525545772}
   CloseAudio: {fileID: 6886955877855567178}
 --- !u!65 &2128503584038926576
@@ -262,6 +264,7 @@ MonoBehaviour:
   animator1: {fileID: 7994208442905806579}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 6171010558525545772}
   CloseAudio: {fileID: 6886955877855567178}
 --- !u!1 &4053465684879771367
@@ -306,9 +309,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3742664979502496426, guid: f8a139210e3a5564ba3fdd2452cba7ee,
     type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: fb0a147d9d632374a9fb5aa54ccedb8c, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -434,9 +437,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3742664979502496426, guid: f8a139210e3a5564ba3fdd2452cba7ee,
     type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b9761a8296240624ca8b5ca01722a5d1, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -580,6 +583,7 @@ MonoBehaviour:
   animator1: {fileID: 5741946533917040604}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 6171010558525545772}
   CloseAudio: {fileID: 6886955877855567178}
 --- !u!65 &1280390001455665221
@@ -642,6 +646,7 @@ MonoBehaviour:
   animator1: {fileID: 1703197600352492031}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 6171010558525545772}
   CloseAudio: {fileID: 6886955877855567178}
 --- !u!65 &1134695777105892631
@@ -704,6 +709,7 @@ MonoBehaviour:
   animator1: {fileID: 625605933334446919}
   CantOpenTxt: {fileID: 0}
   cursor: {fileID: 0}
+  emilyTalking: {fileID: 0}
   OpenAudio: {fileID: 6171010558525545772}
   CloseAudio: {fileID: 6886955877855567178}
 --- !u!1001 &8858199970272322924
