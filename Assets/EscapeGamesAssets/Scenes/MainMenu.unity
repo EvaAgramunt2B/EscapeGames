@@ -833,7 +833,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 3742664979502496426, guid: f8a139210e3a5564ba3fdd2452cba7ee,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 21bbc12836ba29d409c94c0a44ea39fd, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3023,7 +3023,7 @@ MonoBehaviour:
   MainMenu: {fileID: 368972726}
   OptionsMenu: {fileID: 1825725327}
   buttonSound: {fileID: 1096302282}
-  highlightButtonSound: {fileID: 0}
+  highlightButtonSound: {fileID: 125266207}
   playButtonSound: {fileID: 1954341685}
   AudioMusic: {fileID: 1186709962}
   firstSelectedMain: {fileID: 1343972655}
