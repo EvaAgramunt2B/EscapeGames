@@ -509,6 +509,8 @@ MonoBehaviour:
   linterna: {fileID: 5245423857754014521}
   soundFlashlightOn: {fileID: 370885903}
   soundFlashlightOff: {fileID: 182236448}
+  minWaitTime: 0
+  maxWaitTime: 0
 --- !u!82 &1960778584
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1089,7 +1091,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8104760474516239665}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.625, z: -0.073}
+  m_LocalPosition: {x: 0, y: 1.625, z: -0.228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 312515959119016845}
@@ -1273,7 +1275,7 @@ MonoBehaviour:
   speed: 2.5
   GodModeTxt: {fileID: 0}
   startBlink: {fileID: 1296052555787616442}
-  InventoryMenu: {fileID: 0}
+  doorSecurity: {fileID: 0}
   lucesPaVer: {fileID: 0}
   cursor: {fileID: 0}
   rayRange: 0
