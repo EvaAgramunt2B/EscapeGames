@@ -27746,76 +27746,6 @@ Transform:
   m_Father: {fileID: 981340228}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &842557554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 0.12
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  top:
-    m_OverrideState: 0
-    m_Value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  middle:
-    m_OverrideState: 0
-    m_Value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  bottom:
-    m_OverrideState: 0
-    m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  gradientDiffusion:
-    m_OverrideState: 0
-    m_Value: 2.76
 --- !u!1001 &846844134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30212,37 +30142,37 @@ PrefabInstance:
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.848
+      value: -12.261397
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.043599993
+      value: 0.055599995
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.025
+      value: -2.0449915
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6554048
+      value: 0.5176926
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.26541403
+      value: -0.48165792
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.26541403
+      value: 0.48165792
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6554048
+      value: 0.5176926
       objectReference: {fileID: 0}
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
@@ -30262,7 +30192,7 @@ PrefabInstance:
     - target: {fileID: 1721387117985624822, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 44.092003
+      value: 85.87
       objectReference: {fileID: 0}
     - target: {fileID: 7211664159099594931, guid: 38f5ad2bc23500a4499c43477392a20f,
         type: 3}
@@ -39388,7 +39318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 2d66fa2f74666a14696717c10c9336cb, type: 2}
   m_StaticLightingSkyUniqueID: 3
-  m_SkySettings: {fileID: 842557554}
+  m_SkySettings: {fileID: 1521359556}
   m_SkySettingsFromProfile: {fileID: -616064086577677760, guid: 2d66fa2f74666a14696717c10c9336cb,
     type: 2}
 --- !u!4 &1215543873
@@ -47927,6 +47857,76 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1512436200}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1521359556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 0.12
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  top:
+    m_OverrideState: 0
+    m_Value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  middle:
+    m_OverrideState: 0
+    m_Value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  bottom:
+    m_OverrideState: 0
+    m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  gradientDiffusion:
+    m_OverrideState: 0
+    m_Value: 2.76
 --- !u!1 &1524475331
 GameObject:
   m_ObjectHideFlags: 0
@@ -62398,17 +62398,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.826098
+      value: -12.14
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.012
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.1826969
+      value: -2.148
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
@@ -62418,7 +62418,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9990384
+      value: 0.9490086
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
@@ -62428,7 +62428,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0438446
+      value: 0.31525034
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
@@ -62443,7 +62443,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 185.02599
+      value: 143.248
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ed354b0f48c22364bbeee792b9ad4ba3,
         type: 3}
