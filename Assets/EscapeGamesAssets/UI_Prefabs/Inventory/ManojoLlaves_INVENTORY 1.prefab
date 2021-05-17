@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3635631932432770740}
   - component: {fileID: 892273719883111405}
   m_Layer: 0
-  m_Name: KeyINVENTORY
+  m_Name: ManojoLlaves_INVENTORY 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4350692a64ff9dc4a9c451cd88176143, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7a54cc7b4fc5614458747b5552847d16, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
