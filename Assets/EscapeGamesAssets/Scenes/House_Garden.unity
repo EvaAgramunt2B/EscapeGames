@@ -1349,7 +1349,7 @@ PrefabInstance:
     - target: {fileID: 5403018464248796187, guid: 089ee0a55e8da0a49a2064108e72fd9d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 5403018464248796187, guid: 089ee0a55e8da0a49a2064108e72fd9d,
         type: 3}
@@ -3382,6 +3382,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 1444984202788425091, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     - target: {fileID: 3365196416029240018, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_Enabled
@@ -3407,6 +3412,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 3418862854714937548, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     - target: {fileID: 3484606637823151281, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: CantOpenTxt
@@ -3512,6 +3522,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 4566886459139750297, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     - target: {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: CantOpenTxt
@@ -3532,6 +3547,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 4590721129953493859, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     - target: {fileID: 5549918032141416444, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: CantOpenTxt
@@ -3592,6 +3612,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 7617966625701788984, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     - target: {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: CantOpenTxt
@@ -3612,6 +3637,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 7661702521293362515, guid: a6446bc581bce264b8c8912d81fb12b6,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     - target: {fileID: 7922747188707988425, guid: a6446bc581bce264b8c8912d81fb12b6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3830,7 +3860,7 @@ PrefabInstance:
     - target: {fileID: 8109179940021669502, guid: 51ca23062013c5842a5182a9bcc8e89c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 8109179940021669502, guid: 51ca23062013c5842a5182a9bcc8e89c,
         type: 3}
@@ -5030,6 +5060,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5902117884139516988, guid: c1be9ed593d5b6c49ad6305bfcab9b88,
     type: 3}
   m_PrefabInstance: {fileID: 134792716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &147682718 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5997536155641454478, guid: cce6a29542cc64f4ab5d05b21375c055,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041014252}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &150858102
 PrefabInstance:
@@ -7702,7 +7738,7 @@ PrefabInstance:
     - target: {fileID: 3815128239564107650, guid: 20a9ef9851b75284680e4baf2cafaa98,
         type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 3815128239564107650, guid: 20a9ef9851b75284680e4baf2cafaa98,
         type: 3}
@@ -10338,7 +10374,6 @@ MonoBehaviour:
   EmilyTalkingText: {fileID: 972265098}
   OpenAudio: {fileID: 690016459}
   cannotOpenAudio: {fileID: 1212079861}
-  yesAudio: {fileID: 1930968274}
 --- !u!1001 &281295527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11287,7 +11322,7 @@ PrefabInstance:
     - target: {fileID: 61622169942784187, guid: ea62d6b3826f59640a9a17ed2d48c77b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 61622169942784187, guid: ea62d6b3826f59640a9a17ed2d48c77b,
         type: 3}
@@ -18136,6 +18171,7 @@ MonoBehaviour:
   lights: {fileID: 332745174}
   EmilyTalkingText: {fileID: 972265098}
   plomos: {fileID: 390341964}
+  EmTalk: {fileID: 147682718}
 --- !u!1001 &508224273
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21948,7 +21984,7 @@ PrefabInstance:
     - target: {fileID: 3985591695536708461, guid: e48e92ac40c462b4fbb048c8dc759c1a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 3985591695536708461, guid: e48e92ac40c462b4fbb048c8dc759c1a,
         type: 3}
@@ -23168,7 +23204,7 @@ PrefabInstance:
     - target: {fileID: 3815128239564107650, guid: 20a9ef9851b75284680e4baf2cafaa98,
         type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3815128239564107650, guid: 20a9ef9851b75284680e4baf2cafaa98,
         type: 3}
@@ -25558,7 +25594,7 @@ PrefabInstance:
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
@@ -26847,6 +26883,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 7054621992021785472, guid: d0057ac0c4dd6474484123a5f1118f75,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0057ac0c4dd6474484123a5f1118f75, type: 3}
 --- !u!1001 &755869637
@@ -33812,6 +33853,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 7054621992021785472, guid: d0057ac0c4dd6474484123a5f1118f75,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0057ac0c4dd6474484123a5f1118f75, type: 3}
 --- !u!1001 &935215091
@@ -36385,7 +36431,7 @@ PrefabInstance:
     - target: {fileID: 3080046099682572787, guid: 452857a9837c0b640aa1086c58ac732e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 3080046099682572787, guid: 452857a9837c0b640aa1086c58ac732e,
         type: 3}
@@ -37194,7 +37240,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 0a76ef56e184b3840a469d615a62c377,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 0a76ef56e184b3840a469d615a62c377,
         type: 3}
@@ -40349,76 +40395,6 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 0.5}
   m_Size: {x: 2.99, y: 2.25, z: 1}
   m_FadeFactor: 1
---- !u!114 &1127921591
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  active: 1
-  m_AdvancedMode: 0
-  rotation:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-    max: 360
-  skyIntensityMode:
-    m_OverrideState: 0
-    m_Value: 0
-  exposure:
-    m_OverrideState: 0
-    m_Value: 0.12
-  multiplier:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 1
-    min: 0
-  upperHemisphereLuxColor:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
-  desiredLuxValue:
-    m_OverrideState: 0
-    m_Value: 20000
-  updateMode:
-    m_OverrideState: 0
-    m_Value: 0
-  updatePeriod:
-    m_OverrideState: 0
-    m_Value: 0
-    min: 0
-  includeSunInBaking:
-    m_OverrideState: 0
-    m_Value: 0
-  top:
-    m_OverrideState: 0
-    m_Value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  middle:
-    m_OverrideState: 0
-    m_Value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  bottom:
-    m_OverrideState: 0
-    m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
-    hdr: 1
-    showAlpha: 0
-    showEyeDropper: 1
-  gradientDiffusion:
-    m_OverrideState: 0
-    m_Value: 2.76
 --- !u!1001 &1130861768
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42996,7 +42972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Profile: {fileID: 11400000, guid: 2d66fa2f74666a14696717c10c9336cb, type: 2}
   m_StaticLightingSkyUniqueID: 3
-  m_SkySettings: {fileID: 1127921591}
+  m_SkySettings: {fileID: 2012668116}
   m_SkySettingsFromProfile: {fileID: -616064086577677760, guid: 2d66fa2f74666a14696717c10c9336cb,
     type: 2}
 --- !u!4 &1215543873
@@ -45205,6 +45181,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 7054621992021785472, guid: d0057ac0c4dd6474484123a5f1118f75,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0057ac0c4dd6474484123a5f1118f75, type: 3}
 --- !u!4 &1251071250 stripped
@@ -46688,7 +46669,7 @@ PrefabInstance:
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
@@ -48987,7 +48968,7 @@ PrefabInstance:
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
@@ -50295,7 +50276,7 @@ PrefabInstance:
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
@@ -50745,7 +50726,7 @@ PrefabInstance:
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
@@ -56679,7 +56660,7 @@ PrefabInstance:
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
@@ -56818,7 +56799,7 @@ PrefabInstance:
     - target: {fileID: 3080046099682572787, guid: 452857a9837c0b640aa1086c58ac732e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 3080046099682572787, guid: 452857a9837c0b640aa1086c58ac732e,
         type: 3}
@@ -59820,7 +59801,7 @@ PrefabInstance:
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 378534880440381011, guid: 9ae7a3e6d66752e48a94931cc6bb7a95,
         type: 3}
@@ -60864,7 +60845,7 @@ PrefabInstance:
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 965391353378843244, guid: ec05de17cd6ca1c4285a80e865bb5852,
         type: 3}
@@ -64757,6 +64738,12 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 0.5}
   m_Size: {x: 4.02, y: 1, z: 0.3}
   m_FadeFactor: 1
+--- !u!82 &1948789489 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3612684964807130021, guid: cce6a29542cc64f4ab5d05b21375c055,
+    type: 3}
+  m_PrefabInstance: {fileID: 1041014252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1951838239
 GameObject:
   m_ObjectHideFlags: 0
@@ -66412,6 +66399,76 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012361037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2012668116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81bcacc415a1f743bfdf703afc52027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  rotation:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+    max: 360
+  skyIntensityMode:
+    m_OverrideState: 0
+    m_Value: 0
+  exposure:
+    m_OverrideState: 0
+    m_Value: 0.12
+  multiplier:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxValue:
+    m_OverrideState: 0
+    m_Value: 1
+    min: 0
+  upperHemisphereLuxColor:
+    m_OverrideState: 0
+    m_Value: {x: 0, y: 0, z: 0}
+  desiredLuxValue:
+    m_OverrideState: 0
+    m_Value: 20000
+  updateMode:
+    m_OverrideState: 0
+    m_Value: 0
+  updatePeriod:
+    m_OverrideState: 0
+    m_Value: 0
+    min: 0
+  includeSunInBaking:
+    m_OverrideState: 0
+    m_Value: 0
+  top:
+    m_OverrideState: 0
+    m_Value: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  middle:
+    m_OverrideState: 0
+    m_Value: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  bottom:
+    m_OverrideState: 0
+    m_Value: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
+    hdr: 1
+    showAlpha: 0
+    showEyeDropper: 1
+  gradientDiffusion:
+    m_OverrideState: 0
+    m_Value: 2.76
 --- !u!1 &2012950971
 GameObject:
   m_ObjectHideFlags: 0
@@ -68164,6 +68221,11 @@ PrefabInstance:
       propertyPath: emilyTalking
       value: 
       objectReference: {fileID: 972265098}
+    - target: {fileID: 7054621992021785472, guid: d0057ac0c4dd6474484123a5f1118f75,
+        type: 3}
+      propertyPath: Emily
+      value: 
+      objectReference: {fileID: 1948789489}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0057ac0c4dd6474484123a5f1118f75, type: 3}
 --- !u!1 &2055762987
@@ -70919,7 +70981,7 @@ PrefabInstance:
     - target: {fileID: 61622169942784187, guid: ea62d6b3826f59640a9a17ed2d48c77b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 61622169942784187, guid: ea62d6b3826f59640a9a17ed2d48c77b,
         type: 3}
