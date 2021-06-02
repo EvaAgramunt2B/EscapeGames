@@ -88,7 +88,7 @@ MonoBehaviour:
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: -19.8
     min: -100
     max: 100
 --- !u!114 &-5377925926859544306
@@ -180,7 +180,7 @@ MonoBehaviour:
   master:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 4
+      <length>k__BackingField: 5
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -190,26 +190,35 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 1
-          outSlope: 1
+          inSlope: 1.1014194
+          outSlope: 1.1014194
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.18126273
-          value: 0.123404264
-          inSlope: 1
-          outSlope: 1
+          time: 0.1878453
+          value: 0.14559388
+          inSlope: 1.0717521
+          outSlope: 1.0717521
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.802444
-          value: 0.8468085
-          inSlope: 1.0813316
-          outSlope: 1.0813316
+          time: 0.40331492
+          value: 0.5402299
+          inSlope: 1.2552602
+          outSlope: 1.2552602
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.80294657
+          value: 0.86206895
+          inSlope: 0.5519585
+          outSlope: 0.5519585
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -246,17 +255,17 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.14867617
-          value: 0.1404255
-          inSlope: 1
-          outSlope: 1
+          time: 0.14917128
+          value: 0.21455938
+          inSlope: 1.3671594
+          outSlope: 1.3671594
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.8228106
-          value: 0.9574468
+          time: 0.81031305
+          value: 0.9003831
           inSlope: 1.0088514
           outSlope: 1.0088514
           tangentMode: 0
@@ -295,17 +304,17 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.21792261
-          value: 0.21276593
-          inSlope: 1
-          outSlope: 1
+          time: 0.18600368
+          value: 0.22222221
+          inSlope: 1.283688
+          outSlope: 1.283688
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.7922607
-          value: 0.87234044
+          time: 0.70902395
+          value: 0.8927203
           inSlope: 1.0079275
           outSlope: 1.0079275
           tangentMode: 0
@@ -344,17 +353,17 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.20773931
-          value: 0.21702129
-          inSlope: 1
-          outSlope: 1
+          time: 0.21731123
+          value: 0.22605366
+          inSlope: 0.81957513
+          outSlope: 0.81957513
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.808554
-          value: 0.7574468
+          time: 0.7550644
+          value: 0.70114946
           inSlope: 0.9611373
           outSlope: 0.9611373
           tangentMode: 0
@@ -425,7 +434,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-  m_SelectedCurve: 4
+  m_SelectedCurve: 3
 --- !u!114 &-4101766399812993909
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -519,7 +528,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.278
+    m_Value: 0.211
     min: 0
     max: 1
   m_MaxSamples:
@@ -709,7 +718,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.327
+    m_Value: 0.331
     min: 0
     max: 1
   smoothness:
@@ -749,10 +758,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   type:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.293
+    m_Value: 0.457
     min: 0
     max: 1
   response:
